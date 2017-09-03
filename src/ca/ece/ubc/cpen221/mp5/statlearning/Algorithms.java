@@ -1,9 +1,12 @@
 package ca.ece.ubc.cpen221.mp5.statlearning;
 
 import java.util.Set;
+import java.util.Collections;
+import java.util.LinkedHashMap;
 import java.util.List;
-import ca.ece.ubc.cpen221.mp5.*;
+import java.util.Map;
 
+import ca.ece.ubc.cpen221.mp5.*;
 public class Algorithms {
 
 	/**
@@ -15,6 +18,12 @@ public class Algorithms {
 	 */
 	public static List<Set<Restaurant>> kMeansClustering(int k, RestaurantDB db) {
 		// TODO: Implement this method
+	    LinkedHashMap<Integer, Set<Restaurant>> map = new LinkedHashMap<>();
+	   // Map<String, Restaurant> mapRestaurants = new LinkedHashMap<String, Restaurant>(db.getRestaurants());
+	    //for (Restaurant restaurant : mapRestaurants.values()){
+	        
+	    //}
+	    
 		return null;
 	}
 
